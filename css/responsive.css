@@ -1,0 +1,72 @@
+/********************
+RESPONSIVE CHANGE
+********************/
+
+/*Target mainly: Desktops*/
+@media screen and (min-width: 800px) {
+    #logo {
+        text-align: left;
+        margin: 0 0 0 10px;
+        font-size: 40px;
+        font-family: 'Pacifico' sans-serif;
+    }
+
+    #logogr {
+        text-align: left;
+        margin: 10px 0 0 15px;
+        padding-right: 5px;
+        padding-left: 58px;
+        padding-bottom: 5px;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #phoneIcon {
+        display: inline-block;
+        margin-left: 150px;
+        padding-right: 2px;
+    }
+
+    #phoneNum {
+        display: inline-block;
+        margin-top: 50px;
+        padding-right: 90px;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 8px 3% 8px 3%;
+    }
+
+    #titlePic {
+        max-width: 300px;
+        float: left;
+        /*position: relative;
+        left: -450px;*/
+        display: block;
+        margin: 25px 50px 20px 20px;
+        border-radius: 6%;
+        border: 6px solid #663300;
+    }
+
+    #deskfloatright {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    #foodPics {
+        max-width: 25%;
+        display: inline-block;
+        margin: 20px;
+        border: 6px solid #663300;
+    }
+
+/*Target mainly: Tablets*/
+@media screen and (min-width: 660px) {
+
+}
+
+/*Target mainly: Smartphones*/
+@media screen and (min-width: 300px) {
+
+}

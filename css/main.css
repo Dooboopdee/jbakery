@@ -1,0 +1,237 @@
+/*********************************
+MAIN.CSS
+**********************************
+Designed 'mobile first', responsive.css scales the page to larger platforms.
+Always align things center first (mobile-first approach).
+Try to maybe group more things into classes to remove
+some mostly unneccesary id's in the html.
+John Garrison, Janicke Bakery. 2015.
+**********************************
+
+
+/*********************************
+GENERAL
+**********************************/
+
+
+a {
+  text-decoration: none;
+}
+
+#logo {
+  text-align: center;
+  margin: 0 0 0 10px;
+  font-size: 45px;
+  font-family: 'Pacifico', sans-serif;
+}
+
+#logogr {
+  text-align: center;
+  margin: auto;
+  padding-left: 40px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #7A3817;
+}
+
+
+/*********************************
+HEADER
+**********************************/
+
+
+header {
+  background: #663300;
+  border-color: #990000;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+#phoneIcon {
+  float: left;
+  max-width: 64px;
+  margin: 2% 5% 2% 5%;
+}
+
+#phoneNum {
+  font-size: 25px;
+  font-family: 'Hind', sans-serif;
+  color: orange;
+  margin: 40px auto;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.topnavbar {
+  background-color: #663300;
+  border-bottom: 8px solid #452403;
+}
+
+nav {
+  clear: left;
+  /*margin-left: 8px;*/
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  margin-top: 2%;
+}
+
+nav a, nav a:visited {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+}
+
+nav a.selected, nav a:hover {
+  color: #996633;
+  font-size: 20px;
+}
+
+
+/*********************************
+SECTION
+**********************************/
+
+
+#titlePic {
+  max-width: 50%;
+  display: block;
+  margin: auto;
+  border-radius: 6%;
+  border: 6px solid #663300;
+}
+
+#foodPics {
+  max-width: 50%;
+  display: block;
+  margin: auto;
+  border: 6px solid #663300;
+}
+
+.frontPage {
+  margin: 0 5px 5px 5px;
+}
+
+body {
+  background-color: #FFFFCC;
+  color: #999;
+}
+
+p {
+  color: #40322B;
+  font-size: 18px;
+  font-family: 'Hind', sans-serif;
+  text-align: center;
+}
+
+.mainheadline {
+  color: #9C4308;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.center {
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+#miscInfo {
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+/*********************************
+FOOTER
+**********************************/
+
+
+footer {
+  clear: left;
+  text-align: center;
+  margin: 175px 2px 5px 2px;
+}
+
+#footerDonuts {
+  max-width: 80px;
+  margin: 0 0 -5px 0;
+  padding-left: 10px;
+}
+
+#footerGithub {
+  max-width: 40px;
+  margin: 0;
+  padding-left: 10px;
+}
+
+ footer a img {
+  border-color: #663300;
+  max-width: 42px;
+ }
+
+
+/*********************************
+FOODS.HTML
+**********************************/
+#foodPics {
+  border-radius: 5%;
+  clear: left;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  display: block;
+}
+
+
+/*********************************
+OPEN.JS
+**********************************/
+
+
+.todayIsClosed {
+  color: orange;
+  font-family: 'Pacifico', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.todayIsOpen {
+  color: orange;
+  font-family: 'Pacifico', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.openText {
+  color: green;
+  font-family: 'Hind', sans-serif;
+  font-size: 55px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.closedText {
+  color: red;
+  font-family: 'Hind', sans-serif;
+  font-size: 55px;
+  text-align: center;
+  text-decoration: underline;
+}
