@@ -36,7 +36,7 @@ if(isset($_POST['submit'])){
   </head>
   <body>
     <header>
-      <div class="navbar navbar-default">
+      <div class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
 
@@ -50,7 +50,7 @@ if(isset($_POST['submit'])){
             <a class="navbar-brand" href="#">Janicke's Bakery</a>
             <div class="collapse navbar-collapse">
               <ul class="nav navbar-nav">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="foods.html">Bakery Goods</a></li>
                 <li><a href="hours.html">Hours</a></li>
                 <li><a href="openyesno.html">Are We Open?</a></li>
