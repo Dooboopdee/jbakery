@@ -29,7 +29,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Janicke's Bakery</a>
+            <a class="navbar-brand" href="#">Janicke's Bakery <a href="tel:12183263073"><img id="phoneIcon" src="img/phone-icon.png"><p id="phoneNum">1 (218) 326-3073</p></a>
             <div class="collapse navbar-collapse">
               <ul class="nav navbar-nav">
                 <li><a href="index.html">Home</a></li>
@@ -37,7 +37,6 @@
                 <li><a href="hours.html">Hours</a></li>
                 <li class="active"><a href="#">Are We Open?</a></li>
                 <li><a href="contact.php">Contact Us!</a></li>
-                <!--<a href="tel:12183263073"><img id="phoneIcon" src="img/phone-icon.png"><p id="phoneNum">1 (218) 326-3073</p></a>-->
               </ul>
             </div>
           </div>
@@ -48,7 +47,7 @@
         <div class="container" id="topContainer">
           <script language="javascript" type="text/javascript" src="scripts/open.js"></script>
           <noscript>This feature requires JavaScript to be enabled in your browser.</noscript>
-          <div id="topRow">
+          <div id="warningText">
             <h4>*Please note this feature will not always be 100% accurate at all times, and does not<br/>
             account for Holidays or other days we may be closed. Please call<br />
             us at 1-218-326-3073 to make sure that we are open at these times! :)<br/>*WE WILL BE CLOSED
@@ -67,8 +66,10 @@
       </div>
     </footer>
     </div>
-    <script>
-      $(#topContainer).css("height",$(window).height());
-    </script>
+    <!--<script>
+      $(document).ready(function() {
+        $(#topContainer).css("window",$(window).height());
+      });
+    </script>-->
   </body>
 </html>

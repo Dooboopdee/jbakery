@@ -29,7 +29,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Janicke's Bakery</a>
+            <a class="navbar-brand" href="#">Janicke's Bakery <a href="tel:12183263073"><img id="phoneIcon" src="img/phone-icon.png"><p id="phoneNum">1 (218) 326-3073</p></a>
             <div class="collapse navbar-collapse">
               <ul class="nav navbar-nav">
                 <li><a href="index.html">Home</a></li>
@@ -37,7 +37,6 @@
                 <li><a href="hours.html">Hours</a></li>
                 <li><a href="openyesno.html">Are We Open?</a></li>
                 <li><a href="contact.php">Contact Us!</a></li>
-                <!--<a href="tel:12183263073"><img id="phoneIcon" src="img/phone-icon.png"><p id="phoneNum">1 (218) 326-3073</p></a>-->
               </ul>
             </div>
           </div>
@@ -45,17 +44,19 @@
       </div>
     </header>
       <section>
-        <div class="container" id="topContainer">
-          <ul>
-            <!-- LINK and PICTURES of food/ect.. can go here in this list. -->
-            <a href="img/rackshot.jpg"><img class="foodPics" src="img/rackshot.jpg"></a>
-            <a href="img/frontrack.jpg"><img class="foodPics" src="img/frontrack.jpg"></a>
-            <a href="img/monstercookies.jpg"><img class="foodPics" src="img/monstercookies.jpg"></a>
-          </ul>
+        <div class="container-fluid" id="topContainer">
+          <div id="topRow">
+            <ul>
+              <!-- LINK and PICTURES of food/ect.. can go here in this list. -->
+              <a href="img/rackshot.jpg"><img class="foodPics" src="img/rackshot.jpg" /></a>
+              <a href="img/frontrack.jpg"><img class="foodPics" src="img/frontrack.jpg" /></a>
+              <a href="img/monstercookies.jpg"><img class="foodPics" src="img/monstercookies.jpg" /></a>
+            </ul>
+          </div>
         </div>
       </section>
       <footer>
-      <div class="container" id="bottomContainer">
+      <div class="container-fluid" id="bottomContainer">
         <div class="row">
           <div class="colum-md-6" id="bottomRow">
             <a href="index.html"><p>&copy; 2015 Janicke's Bakery<img id="footerDonuts" src="img/donuts.png" alt=""></p></a>
@@ -64,8 +65,8 @@
         </div>
       </div>
     </footer>
-    <script>
+    <!--<script>
       $(#topContainer).css("height",$(window).height());
-    </script>
+    </script>-->
   </body>
 </html>

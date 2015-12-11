@@ -47,7 +47,7 @@ if(isset($_POST['submit'])){
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Janicke's Bakery</a>
+            <a class="navbar-brand" href="#">Janicke's Bakery <a href="tel:12183263073"><img id="phoneIcon" src="img/phone-icon.png"><p id="phoneNum">1 (218) 326-3073</p></a>
             <div class="collapse navbar-collapse">
               <ul class="nav navbar-nav">
                 <li><a href="index.html">Home</a></li>
@@ -55,7 +55,6 @@ if(isset($_POST['submit'])){
                 <li><a href="hours.html">Hours</a></li>
                 <li><a href="openyesno.html">Are We Open?</a></li>
                 <li class="active"><a href="#">Contact Us!</a></li>
-                <!--<a href="tel:12183263073"><img id="phoneIcon" src="img/phone-icon.png"><p id="phoneNum">1 (218) 326-3073</p></a>-->
               </ul>
             </div>
           </div>
@@ -100,8 +99,8 @@ if(isset($_POST['submit'])){
         </div>
       </div>
     </footer>
-    <script>
+    <!--<script>
       $(#topContainer).css("height",$(window).height());
-    </script>
+    </script>-->
   </body>
 </html>
