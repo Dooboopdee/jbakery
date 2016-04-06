@@ -17,58 +17,56 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header>
-      <div class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
+    <div class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle Navigation</span>
 
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle Navigation</span>
-
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Janicke's Bakery <a href="tel:12183263073"><img id="phoneIcon" src="img/phone-icon.png"><p id="phoneNum">1 (218) 326-3073</p></a>
-            <div class="collapse navbar-collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="foods.html">Bakery Goods</a></li>
-                <li><a href="hours.html">Hours</a></li>
-                <li><a href="openyesno.html">Are We Open?</a></li>
-                <li><a href="contact.php">Contact Us!</a></li>
-                <li class="pull-right"></a></li>
-              </ul>
-            </div>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Janicke's Bakery<a href="tel:12183263073"><img id="phoneIcon" src="img/phone-icon.png"><p id="phoneNum">1 (218) 326-3073</p></a></a>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="foods.html">Bakery Goods</a></li>
+              <li><a href="hours.html">Hours</a></li>
+              <li><a href="openyesno.html">Are We Open?</a></li>
+              <li><a href="contact.php">Contact Us!</a></li>
+            </ul>
           </div>
         </div>
       </div>
-    </header>
-    <section>
-      <div class="container" id="topContainer">
-        <div class="row">
-          <div class="colum-md-6" id="topRow">
-            <h1>The <em>best</em> bakery in Rapids. <strong>Family</strong> owned and operated.</h2>
-            <!--<a href="img/donutparadise.jpg"><img id="titlePic" src="img/donutparadise.jpg"></a>-->
-            <p class="lead">Bakery goods are made fresh each and every morning. Delicious breads, cookies,
-            cakes, brownies, donuts and much more! :)</p><hr />
-            <h2>News</h2>
-            <h3 id="secondContent">Christmas time is here!</h3>
-            <p>Celebrate the season with christmas cookies, fudge-dipped bars, and festive cupcakes!</p>
-            <h3 id="thirdContent">Smores cookies now in stock</h3>
-            <p>Unique, chocolatey and crispy smores cookies are now available!</p>
-            <h3 id="fourthContent"><a href="http://www.grandrapidsmn.com/business/klobuchar-features-janicke-bakery-at-minnesota-morning/article_facc825a-4585-11e4-948a-535c67e0f322.html">Senator Klobuchar Features Janicke Bakery at <em>Minnesota Morning</em></a></h3>
-            <p>"..small businesses are the backbone of communities across Minnesota"<br /> said Klobuchar.
-            Janicke's pastries were featured in the senators office in D.C. last year.</p><hr />
-          </div>
+    </div>
+    <div class="container" id="topContainer">
+      <h1 class="mainTitle">The <em>best</em> bakery in Rapids. <strong>Family</strong> owned and operated.</h1>
+      <p class="subTitle">Bakery goods are made fresh each and every morning.<br/> Delicious breads, cookies,
+      cakes, brownies, donuts and much more! :)</p>
+    </div>
+    <div class="container" id="contentContainer">
+      <div class="row">
+        <div class="colum-md-6" id="topRow">
+          <h2>News</h2>
+          <h3 class="newsTitle">Happy Easter! :)</h3>
+          <p class="newsContent">We hope you enjoyed the holiday!</p>
+          <h3 class="newsTitle">Christmas time is here!</h3>
+          <p class="newsContent">Celebrate the season with christmas cookies, fudge-dipped bars, and festive cupcakes!</p>
+          <h3 class="newsTitle">Smores cookies now in stock</h3>
+          <p class="newsContent">Unique, chocolatey and crispy smores cookies are now available!</p>
+          <h3 class="newsTitle"><a href="http://www.grandrapidsmn.com/business/klobuchar-features-janicke-bakery-at-minnesota-morning/article_facc825a-4585-11e4-948a-535c67e0f322.html">Senator Klobuchar Features Janicke Bakery at <em>Minnesota Morning</em></a></h3>
+          <p class="newsContent">"..small businesses are the backbone of communities across Minnesota"<br /> said Klobuchar.
+          Janicke's pastries were featured in the senators office in D.C. last year.</p>
         </div>
       </div>
-      <footer>
+    </div>
+    <footer>
       <div class="container" id="bottomContainer">
         <div class="row">
           <div class="colum-md-6" id="bottomRow">
             <a href="index.html"><p>&copy; 2015 Janicke's Bakery<img id="footerDonuts" src="img/donuts.png" alt=""></p></a>
-            <p>&copy; John Garrison - Janicke's Cleaner<br /> and <a href="http://www.github.com/Dooboopdee">Site Creator<img id="footerGithub" src="img/github.png"></a></p>
+            <p>&copy; John Garrison - Janicke's Cleaner<br /> and <a href="http://www.johntg.com">Site Creator<img id="footerGithub" src="img/github.png"></a></p>
           </div>
         </div>
       </div>

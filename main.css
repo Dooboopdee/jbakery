@@ -4,34 +4,40 @@ MAIN.CSS
 Main styling done with Bootstrap 3
 This file will override the styling done w/ Boostrap
 John Garrison, Janicke Bakery. 2015.
-**********************************
+**********************************/
 
+body {
+  font-size: 62.5%;
+}
 
 /*********************************
 HEADER
 **********************************/
 
 .navbar-default .navbar-brand {
-  font-size: 28px;
-  text-align: left;
+  font-size: 1.7em;
+  position: relative;
   color: #F7F0E6;
   font-family: 'Pacifico', sans-serif;
 }
 
 .navbar-default {
-    background-color: #543410;
-    border-color: #402C0D;
-    border-width: 5px;
-    margin-bottom: 0;
+  font-size: 3em;
+  color: #EDEDED;
+  font-family: 'Pacifico', sans-serif;
+  background-color: #40270D;
+  margin-bottom: 0;
+  border: .1em solid #40270D;
+  border-radius: 0;
 }
 
 .navbar-default .navbar-nav > li > a {
     color: #E3AB5D;
-    font-size: 20px;
+    font-size: 1em;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    background-color: #3D290C;
+    background-color: #6B3815;
     color: #FFFFFF;
 }
 
@@ -40,9 +46,10 @@ ul.nav a:hover {
 }
 
 #phoneIcon {
-  margin-top: 0;
-  height: 64px;
-  width: 64px;
+  margin-top: .2em;
+  margin-left: 2.3em;
+  height: 25%;
+  width: 3.2em;
 }
 
 #phoneNum {
@@ -62,13 +69,33 @@ SECTION
   background-image: url(img/donutparadise.jpg);
   background-color: #C48D5C;
   background-size: cover;
-  height: 1200px;
+  background-attachment: fixed;
+  height: auto;
   width: 100%;
 }
 
-#topRow {
-  margin-top: 215px;
+.mainTitle {
+  font-family: 'Pacifico', arial;
+  font-size: 8em;
   text-align: center;
+  color: #E6A510;
+  margin-top: 3.2em;
+  margin-bottom: 3.2em;
+}
+
+.subTitle {
+  font-family: 'Hind', arial;
+  font-size: 4em;
+  text-align: center;
+  color: #E3AB5D;
+  margin-top: 2em;
+  margin-bottom: 3.2em;
+}
+
+#topRow {
+  margin-top: 20em;
+  text-align: center;
+  margin-bottom: 4em;
 }
 
 #topRow h1 {
@@ -79,32 +106,33 @@ SECTION
 #topRow h2 {
   font-size: 28px;
   color: #E6A510;
-  margin-top: 100px
 }
 
 #topRow p {
   font-size: 18px;
   color: #E3E3E3;
+  margin-top: 1.2em;
 }
 
-#secondContent {
-  margin-top: 35px;
+#contentContainer {
+  background-color: #522D0E;
+  width: 100%;
+}
+
+.newsTitle {
+  color: #E6A510;
+  margin-top: 4em;
+}
+
+.newsTitle a {
   color: #CC9D2F;
 }
 
-#thirdContent {
-  margin-top: 50px;
-  color: #CC9D2F;
+.newsContent {
+  color: #E3AB5D;
+  margin-top: 4em;
 }
 
-#fourthContent {
-  margin-top: 50px;
-}
-
-#fourthContent a {
-
-  color: #BA7111;
-}
 
 /*********************************
 FOOTER
@@ -152,10 +180,10 @@ OPEN.JS
 **********************************/
 
 #warningText {
-  margin-top: 45px;
   text-align: center;
-  font-size: 20px;
+  font-size: 5em;
   color: #E6A510;
+  margin-top: 2em;
 }
 
 .todayIsClosed {
@@ -163,7 +191,7 @@ OPEN.JS
   font-family: 'Pacifico', sans-serif;
   font-size: 40px;
   text-align: center;
-  margin-top: 215px;
+  margin-top: 3em;
 }
 
 .todayIsOpen {
@@ -171,7 +199,7 @@ OPEN.JS
   font-family: 'Pacifico', sans-serif;
   font-size: 40px;
   text-align: center;
-  margin-top: 215px;
+  margin-top: 3em;
 }
 
 .openText {
